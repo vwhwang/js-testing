@@ -1,0 +1,28 @@
+{
+  "name": "anagram",
+  "version": "1.0.0",
+  "description": "A Weekend Warrior Assignment in JavaScript adapted from Exercism http://exercism.io/exercises/javascript/anagram/readme",
+  "main": "anagram.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CheezItMan/weekend-warrior-js.git"
+  },
+  "keywords": [
+    "Anagram",
+    "Whiteboarding",
+    "Jest",
+    "Node"
+  ],
+  "author": "Chris McAnally",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheezItMan/weekend-warrior-js/issues"
+  },
+  "homepage": "https://github.com/CheezItMan/weekend-warrior-js#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
