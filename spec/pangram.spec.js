@@ -2,7 +2,7 @@ var Pangram = require('../pangram');
 
 describe('Pangram class',  () =>  {
 
-  test('is defined', function() {
+  test('Pangram is defined', function() {
     expect(Pangram).toBeDefined();
   });
 
