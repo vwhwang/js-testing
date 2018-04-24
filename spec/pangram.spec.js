@@ -1,4 +1,4 @@
-var Pangram = require('../pangram');
+const Pangram = require('../pangram');
 
 describe('Pangram class',  () =>  {
 
@@ -7,8 +7,14 @@ describe('Pangram class',  () =>  {
   });
 
   describe('isPangram()', () => {
+    test('isPangram() is defined', () => {
+      const pangram = new Pangram('');
+
+      expect(pangram.isPangram).toBeDefined();
+    });
+
     test('empty sentence',  () => {
-      var pangram = new Pangram('');
+      let pangram = new Pangram('');
 
       expect(pangram.isPangram()).toBe(false);
     });
