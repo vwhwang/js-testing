@@ -1,5 +1,9 @@
 # Pangram
 
+This repository is intended as a teaching resource to teach the [Jest](https://facebook.github.io/jest/) JavaScript testing framework.  
+
+## Problem Description
+
 Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan gramma,
 "every letter") is a sentence using every letter of the alphabet at least once.
 The best known English pangram is:
@@ -10,33 +14,26 @@ insensitive. Input will not contain non-ASCII symbols.
 
 ## Setup
 
-Go through the setup instructions for JavaScript to install the
- necessary dependencies:
+From the project directory, install the necessary dependency (jest)
 
-http://exercism.io/languages/javascript/installation
+```bash
+$ npm install
+```
 
 ## Running the test suite
 
-The provided test suite uses [Jasmine](https://jasmine.github.io/).
-You can install it by opening a terminal window and running the
-following command:
-
-```sh
-npm install -g jasmine
-```
-
 Run the test suite from the exercise directory with:
 
-```sh
-jasmine pangram.spec.js
+```bash
+npm test
 ```
 
-In many test suites all but the first test have been marked "pending".
-Once you get a test passing, activate the next one by changing `xit` to `it`.
+Most of the tests are stubbed out and incomplete.  In the course of the exercise complete the tests.
 
 ## Source
 
-Wikipedia [https://en.wikipedia.org/wiki/Pangram](https://en.wikipedia.org/wiki/Pangram)
+This was adapted from the Exercism JavaScript exercise.
 
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+- Wikipedia [https://en.wikipedia.org/wiki/Pangram](https://en.wikipedia.org/wiki/Pangram)
+- Exercism
+[http://exercism.io/exercises/javascript/pangram/readme](http://exercism.io/exercises/javascript/pangram/readme)
