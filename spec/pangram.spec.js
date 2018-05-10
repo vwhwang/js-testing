@@ -1,4 +1,4 @@
-const Pangram = require('../pangram');
+const Pangram = require('../src/pangram');
 
 describe('Pangram class',  () =>  {
 
