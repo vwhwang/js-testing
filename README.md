@@ -1,6 +1,6 @@
 # Pangram
 
-This repository is intended as a teaching resource to teach the [Jest](https://facebook.github.io/jest/) JavaScript testing framework.  
+This repository is intended as a teaching resource to teach the [Jest](https://facebook.github.io/jest/) JavaScript testing framework.
 
 ## Problem Description
 
@@ -17,8 +17,9 @@ insensitive. Input will not contain non-ASCII symbols.
 From the project directory, install the necessary dependency (jest)
 
 ```bash
-$ npm install
-```
+$ `npm install -g jest-cli`
+$ `npm install`
+$ `npm start````
 
 ## Running the test suite
 
