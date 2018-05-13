@@ -41,4 +41,8 @@ describe('TextBlock class',  () =>  {
 
 
   });
+
+  describe('isPalindrome()', () => {
+
+  });
 });

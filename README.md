@@ -1,16 +1,6 @@
-# Pangram
+# TextBlock
 
 This repository is intended as a teaching resource to teach the [Jest](https://facebook.github.io/jest/) JavaScript testing framework.
-
-## Problem Description
-
-Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan gramma,
-"every letter") is a sentence using every letter of the alphabet at least once.
-The best known English pangram is:
-> The quick brown fox jumps over the lazy dog.
-
-The alphabet used consists of ASCII letters `a` to `z`, inclusive, and is case
-insensitive. Input will not contain non-ASCII symbols.
 
 ## Setup
 
@@ -30,6 +20,22 @@ npm test
 ```
 
 Most of the tests are stubbed out and incomplete.  In the course of the exercise complete the tests.
+
+## Problem Description #1 Pangram
+
+Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan gramma,
+"every letter") is a sentence using every letter of the alphabet at least once.
+The best known English pangram is:
+> The quick brown fox jumps over the lazy dog.
+
+The alphabet used consists of ASCII letters `a` to `z`, inclusive, and is case
+insensitive. Input will not contain non-ASCII symbols.
+
+## Problem Description #2 Palindrome
+
+For the next method write a method which will determine if the `TextBlock` is a palindrome.  A Palindrome is a word or phrase which is spelled the same backwards as forwards.
+
+Example:  `racecar` spelled backwards is:  `racecar`.
 
 ## Source
 
