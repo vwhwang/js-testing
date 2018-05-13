@@ -37,6 +37,8 @@ For the next method write a method which will determine if the `TextBlock` is a 
 
 Example:  `racecar` spelled backwards is:  `racecar`.
 
+The isPalindrome method should work ignoring whitespace or punctuation, so "Too hot to hoot." is a palindrome.
+
 ## Source
 
 This was adapted from the Exercism JavaScript exercise.
