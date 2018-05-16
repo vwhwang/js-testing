@@ -9,7 +9,6 @@ From the project directory, install the necessary dependency (jest)
 ```bash
 $ npm install -g jest-cli
 $ npm install
-$ npm start
 ````
 
 ## Running the test suite
