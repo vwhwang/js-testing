@@ -1,14 +1,14 @@
 {
   "name": "anagram",
   "version": "1.0.0",
-  "description": "A Weekend Warrior Assignment in JavaScript adapted from Exercism http://exercism.io/exercises/javascript/anagram/readme",
+  "description": "A Testing exercise in JavaScript adapted from Exercism http://exercism.io/exercises/javascript/anagram/readme",
   "main": "anagram.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/CheezItMan/weekend-warrior-js.git"
+    "url": "git+ssh://AdaGold/TextBlock"
   },
   "keywords": [
     "Anagram",
@@ -19,9 +19,9 @@
   "author": "Chris McAnally",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CheezItMan/weekend-warrior-js/issues"
+    "url": "https://github.com/AdaGold/TextBlock/issues"
   },
-  "homepage": "https://github.com/CheezItMan/weekend-warrior-js#readme",
+  "homepage": "https://github.com/AdaGold/TextBlock#readme",
   "devDependencies": {
     "jest": "^22.4.3"
   }
