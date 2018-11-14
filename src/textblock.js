@@ -5,7 +5,25 @@ const textBlock = {
     this.text = text;
   },
   isPangram() {
-    return false;
+    const letters = this.text.split('');
+
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+
+    const letterCounts = { };
+
+    alphabet.forEach(letter => letterCounts[letter] = 0);
+
+    letters.forEach((letter) => letterCounts[letter] += 1);
+
+    let answer = true;
+
+    alphabet.forEach(letter => {
+      if (letterCounts[letter] === 0) {
+        answer = false;
+      }
+    });
+    return answer;
   }
 
 
