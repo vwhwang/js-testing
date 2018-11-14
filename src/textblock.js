@@ -5,7 +5,7 @@ const textBlock = {
     this.text = text;
   },
   isPangram() {
-
+    return false;
   }
 
 

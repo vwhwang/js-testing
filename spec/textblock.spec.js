@@ -13,12 +13,16 @@ describe('TextBlock class',  () =>  {
     });
 
     test('empty sentence',  () => {
-      const textBlock = new TextBlock('');
+      textBlock.setup('');
 
       expect(textBlock.isPangram()).toBe(false);
     });
 
     test('works with a pangram with only lower case', () =>  {
+      textBlock.setup('the quick brown fox jumps over the lazy dog.');
+
+      expect(textBlock.isPangram()).toBe(true);
+      expect(textBlock.isPangram()).toBeTruthy();
 
     });
 
