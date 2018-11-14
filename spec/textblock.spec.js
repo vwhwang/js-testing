@@ -1,14 +1,13 @@
-const TextBlock = require('../src/textblock');
+const textBlock = require('../src/textblock');
 
 describe('TextBlock class',  () =>  {
 
   test('TextBlock is defined', function() {
-    expect(TextBlock).toBeDefined();
+    expect(textBlock).toBeDefined();
   });
 
   describe('isPangram()', () => {
     test('isPangram() is defined', () => {
-      const textBlock = new TextBlock('');
 
       expect(textBlock.isPangram).toBeDefined();
     });

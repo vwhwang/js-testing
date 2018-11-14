@@ -1,10 +1,14 @@
 
 
-class TextBlock {
-  constructor(text) {
+const textBlock = {
+  setup(text) {
+    this.text = text;
+  },
+  isPangram() {
+
   }
 
 
 }
 
-module.exports = TextBlock;
+module.exports = textBlock;
