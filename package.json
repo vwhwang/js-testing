@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://AdaGold/TextBlock"
+    "url": "git+ssh://AdaGold/JS-Testing"
   },
   "keywords": [
     "Anagram",
@@ -23,9 +23,9 @@
   "author": "Chris McAnally",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdaGold/TextBlock/issues"
+    "url": "https://github.com/AdaGold/JS-Testing/issues"
   },
-  "homepage": "https://github.com/AdaGold/TextBlock#readme",
+  "homepage": "https://github.com/AdaGold/JS-Testing#readme",
   "devDependencies": {},
   "dependencies": {
     "jest": "^24.8.0"
