@@ -1,4 +1,4 @@
-# TextBlock
+# Jest Testing
 
 This repository is intended as a teaching resource to teach the [Jest](https://facebook.github.io/jest/) JavaScript testing framework.
 
@@ -16,7 +16,7 @@ $ npm install
 Run the test suite from the exercise directory with:
 
 ```bash
-npm test
+$ npm test
 ```
 
 Most of the tests are stubbed out and incomplete.  In the course of the exercise complete the tests.
@@ -33,7 +33,7 @@ insensitive. Input will not contain non-ASCII symbols.
 
 ## Problem Description #2 Palindrome
 
-For the next method write a method which will determine if the `TextBlock` is a palindrome.  A Palindrome is a word or phrase which is spelled the same backwards as forwards.
+For the next function write a method which will determine if the input string is a palindrome.  A Palindrome is a word or phrase which is spelled the same backwards as forwards.
 
 Example:  `racecar` spelled backwards is:  `racecar`.
 
