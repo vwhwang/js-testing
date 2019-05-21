@@ -1,6 +1,6 @@
 {
   "name": "anagram",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Testing exercise in JavaScript adapted from Exercism http://exercism.io/exercises/javascript/anagram/readme",
   "main": "anagram.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://AdaGold/TextBlock"
+    "url": "git+ssh://AdaGold/JS-Testing"
   },
   "keywords": [
     "Anagram",
@@ -23,10 +23,11 @@
   "author": "Chris McAnally",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdaGold/TextBlock/issues"
+    "url": "https://github.com/AdaGold/JS-Testing/issues"
   },
-  "homepage": "https://github.com/AdaGold/TextBlock#readme",
-  "devDependencies": {
-    "jest": "^22.4.3"
+  "homepage": "https://github.com/AdaGold/JS-Testing#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "jest": "^24.8.0"
   }
 }
