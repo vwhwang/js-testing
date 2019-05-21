@@ -12,7 +12,6 @@ describe('isPangram()', () => {
     // Act
 
     // Assert
-
   });
 
   test('works with "abcdefghijklmnopqrstuvwxyz"', () => {
@@ -33,9 +32,16 @@ describe('isPangram()', () => {
 
   });
 
-  test('empty sentence', () => {});
+  test('empty sentence', () => {
+    // Arrange
 
-  test('pangram with underscores instead of spaces works', function textWithUnderscores() {
+    // Act
+
+    // Assert
+
+  });
+
+  test('pangram with underscores instead of spaces works', () => {
     // Arrange
 
     // Act
