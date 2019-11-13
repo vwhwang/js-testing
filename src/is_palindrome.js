@@ -1,4 +1,4 @@
-const isPalindrome = function isPalindrome(text) {
+const isPalindrome = function(text) {
 
 };
 

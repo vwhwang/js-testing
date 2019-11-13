@@ -1,4 +1,4 @@
-const isPangram = function isPangram(text) {
+const isPangram = function(text) {
 
 };
 
